@@ -10,9 +10,10 @@ label {
     font-weight: 500px;
 }
 
-container {
-    width: 600px;
+.container {
+    width: 700px;
     margin: 0 auto;
-    border: 5px solid black;
+    margin-top: 75px;
+    border: 1px solid black;
     box-sizing: border-box;
 }
