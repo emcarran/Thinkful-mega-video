@@ -1,0 +1,747 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'jquery',
+1 verbose cli   '--save',
+1 verbose cli   'dev' ]
+2 info using npm@2.15.5
+3 info using node@v4.4.5
+4 verbose install initial load of C:\Users\Elizabeth\Desktop\Thinkful Program\Repository\Thinkful-mega-video\package.json
+5 verbose installManyTop reading scoped package data from C:\Users\Elizabeth\Desktop\Thinkful Program\Repository\Thinkful-mega-video\node_modules\jasmine-core\package.json
+6 verbose installManyTop reading scoped package data from C:\Users\Elizabeth\Desktop\Thinkful Program\Repository\Thinkful-mega-video\node_modules\jquery\package.json
+7 verbose installManyTop reading scoped package data from C:\Users\Elizabeth\Desktop\Thinkful Program\Repository\Thinkful-mega-video\node_modules\karma\package.json
+8 verbose installManyTop reading scoped package data from C:\Users\Elizabeth\Desktop\Thinkful Program\Repository\Thinkful-mega-video\node_modules\karma-chrome-launcher\package.json
+9 verbose installManyTop reading scoped package data from C:\Users\Elizabeth\Desktop\Thinkful Program\Repository\Thinkful-mega-video\node_modules\karma-jasmine\package.json
+10 verbose installManyTop reading scoped package data from C:\Users\Elizabeth\Desktop\Thinkful Program\Repository\Thinkful-mega-video\node_modules\karma-ng-html2js-preprocessor\package.json
+11 verbose readDependencies loading dependencies from C:\Users\Elizabeth\Desktop\Thinkful Program\Repository\Thinkful-mega-video\package.json
+12 verbose install jquery is installed as 3.1.0
+13 silly cache add args [ 'jquery', null ]
+14 verbose cache add spec jquery
+15 silly cache add args [ 'dev', null ]
+16 verbose cache add spec dev
+17 silly cache add parsed spec Result {
+17 silly cache add   raw: 'jquery',
+17 silly cache add   scope: null,
+17 silly cache add   name: 'jquery',
+17 silly cache add   rawSpec: '',
+17 silly cache add   spec: 'latest',
+17 silly cache add   type: 'tag' }
+18 silly addNamed jquery@latest
+19 verbose addNamed "latest" is being treated as a dist-tag for jquery
+20 info addNameTag [ 'jquery', 'latest' ]
+21 silly mapToRegistry name jquery
+22 silly mapToRegistry using default registry
+23 silly mapToRegistry registry https://registry.npmjs.org/
+24 silly mapToRegistry data Result {
+24 silly mapToRegistry   raw: 'jquery',
+24 silly mapToRegistry   scope: null,
+24 silly mapToRegistry   name: 'jquery',
+24 silly mapToRegistry   rawSpec: '',
+24 silly mapToRegistry   spec: 'latest',
+24 silly mapToRegistry   type: 'tag' }
+25 silly mapToRegistry uri https://registry.npmjs.org/jquery
+26 verbose addNameTag registry:https://registry.npmjs.org/jquery not in flight; fetching
+27 silly cache add parsed spec Result {
+27 silly cache add   raw: 'dev',
+27 silly cache add   scope: null,
+27 silly cache add   name: 'dev',
+27 silly cache add   rawSpec: '',
+27 silly cache add   spec: 'latest',
+27 silly cache add   type: 'tag' }
+28 silly addNamed dev@latest
+29 verbose addNamed "latest" is being treated as a dist-tag for dev
+30 info addNameTag [ 'dev', 'latest' ]
+31 silly mapToRegistry name dev
+32 silly mapToRegistry using default registry
+33 silly mapToRegistry registry https://registry.npmjs.org/
+34 silly mapToRegistry data Result {
+34 silly mapToRegistry   raw: 'dev',
+34 silly mapToRegistry   scope: null,
+34 silly mapToRegistry   name: 'dev',
+34 silly mapToRegistry   rawSpec: '',
+34 silly mapToRegistry   spec: 'latest',
+34 silly mapToRegistry   type: 'tag' }
+35 silly mapToRegistry uri https://registry.npmjs.org/dev
+36 verbose addNameTag registry:https://registry.npmjs.org/dev not in flight; fetching
+37 verbose request uri https://registry.npmjs.org/jquery
+38 verbose request no auth needed
+39 info attempt registry request try #1 at 3:10:51 PM
+40 verbose request id 8f0cea2a7b6c34bc
+41 verbose etag "2OKAMQNHNO9K8C4QLXXX3S6XG"
+42 http request GET https://registry.npmjs.org/jquery
+43 verbose request uri https://registry.npmjs.org/dev
+44 verbose request no auth needed
+45 info attempt registry request try #1 at 3:10:51 PM
+46 verbose etag "VK812ZBPAVKGVPWTKZ40JVQP"
+47 http request GET https://registry.npmjs.org/dev
+48 http 200 https://registry.npmjs.org/jquery
+49 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+49 verbose headers   etag: '"6GEYDUDCGCZHTUJU2IP302WEV"',
+49 verbose headers   'content-type': 'application/json',
+49 verbose headers   'content-encoding': 'gzip',
+49 verbose headers   'cache-control': 'max-age=300',
+49 verbose headers   'content-length': '11321',
+49 verbose headers   'accept-ranges': 'bytes',
+49 verbose headers   date: 'Fri, 02 Sep 2016 22:10:51 GMT',
+49 verbose headers   via: '1.1 varnish',
+49 verbose headers   age: '255',
+49 verbose headers   connection: 'keep-alive',
+49 verbose headers   'x-served-by': 'cache-sjc3148-SJC',
+49 verbose headers   'x-cache': 'HIT',
+49 verbose headers   'x-cache-hits': '2',
+49 verbose headers   'x-timer': 'S1472854251.899949,VS0,VE0',
+49 verbose headers   vary: 'Accept-Encoding' }
+50 silly get cb [ 200,
+50 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+50 silly get     etag: '"6GEYDUDCGCZHTUJU2IP302WEV"',
+50 silly get     'content-type': 'application/json',
+50 silly get     'content-encoding': 'gzip',
+50 silly get     'cache-control': 'max-age=300',
+50 silly get     'content-length': '11321',
+50 silly get     'accept-ranges': 'bytes',
+50 silly get     date: 'Fri, 02 Sep 2016 22:10:51 GMT',
+50 silly get     via: '1.1 varnish',
+50 silly get     age: '255',
+50 silly get     connection: 'keep-alive',
+50 silly get     'x-served-by': 'cache-sjc3148-SJC',
+50 silly get     'x-cache': 'HIT',
+50 silly get     'x-cache-hits': '2',
+50 silly get     'x-timer': 'S1472854251.899949,VS0,VE0',
+50 silly get     vary: 'Accept-Encoding' } ]
+51 verbose get saving jquery to C:\Users\Elizabeth\AppData\Roaming\npm-cache\registry.npmjs.org\jquery\.cache.json
+52 verbose correctMkdir C:\Users\Elizabeth\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+53 silly addNameTag next cb for jquery with tag latest
+54 silly addNamed jquery@3.1.0
+55 verbose addNamed "3.1.0" is a plain semver version for jquery
+56 http 200 https://registry.npmjs.org/dev
+57 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+57 verbose headers   etag: '"70CDUJPAHIRCO4UM5CM28RZUB"',
+57 verbose headers   'content-type': 'application/json',
+57 verbose headers   'content-encoding': 'gzip',
+57 verbose headers   'cache-control': 'max-age=300',
+57 verbose headers   'content-length': '1360',
+57 verbose headers   'accept-ranges': 'bytes',
+57 verbose headers   date: 'Fri, 02 Sep 2016 22:10:52 GMT',
+57 verbose headers   via: '1.1 varnish',
+57 verbose headers   age: '0',
+57 verbose headers   connection: 'keep-alive',
+57 verbose headers   'x-served-by': 'cache-sjc3144-SJC',
+57 verbose headers   'x-cache': 'MISS',
+57 verbose headers   'x-cache-hits': '0',
+57 verbose headers   'x-timer': 'S1472854251.894203,VS0,VE356',
+57 verbose headers   vary: 'Accept-Encoding' }
+58 silly get cb [ 200,
+58 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+58 silly get     etag: '"70CDUJPAHIRCO4UM5CM28RZUB"',
+58 silly get     'content-type': 'application/json',
+58 silly get     'content-encoding': 'gzip',
+58 silly get     'cache-control': 'max-age=300',
+58 silly get     'content-length': '1360',
+58 silly get     'accept-ranges': 'bytes',
+58 silly get     date: 'Fri, 02 Sep 2016 22:10:52 GMT',
+58 silly get     via: '1.1 varnish',
+58 silly get     age: '0',
+58 silly get     connection: 'keep-alive',
+58 silly get     'x-served-by': 'cache-sjc3144-SJC',
+58 silly get     'x-cache': 'MISS',
+58 silly get     'x-cache-hits': '0',
+58 silly get     'x-timer': 'S1472854251.894203,VS0,VE356',
+58 silly get     vary: 'Accept-Encoding' } ]
+59 verbose get saving dev to C:\Users\Elizabeth\AppData\Roaming\npm-cache\registry.npmjs.org\dev\.cache.json
+60 verbose correctMkdir C:\Users\Elizabeth\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+61 silly addNameTag next cb for dev with tag latest
+62 silly addNamed dev@0.1.3
+63 verbose addNamed "0.1.3" is a plain semver version for dev
+64 silly cache afterAdd jquery@3.1.0
+65 verbose afterAdd C:\Users\Elizabeth\AppData\Roaming\npm-cache\jquery\3.1.0\package\package.json not in flight; writing
+66 verbose correctMkdir C:\Users\Elizabeth\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+67 verbose afterAdd C:\Users\Elizabeth\AppData\Roaming\npm-cache\jquery\3.1.0\package\package.json written
+68 silly cache afterAdd dev@0.1.3
+69 verbose afterAdd C:\Users\Elizabeth\AppData\Roaming\npm-cache\dev\0.1.3\package\package.json not in flight; writing
+70 verbose correctMkdir C:\Users\Elizabeth\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+71 verbose afterAdd C:\Users\Elizabeth\AppData\Roaming\npm-cache\dev\0.1.3\package\package.json written
+72 silly install resolved [ { name: 'jquery',
+72 silly install resolved     title: 'jQuery',
+72 silly install resolved     description: 'JavaScript library for DOM operations',
+72 silly install resolved     version: '3.1.0',
+72 silly install resolved     main: 'dist/jquery.js',
+72 silly install resolved     homepage: 'https://jquery.com',
+72 silly install resolved     author:
+72 silly install resolved      { name: 'jQuery Foundation and other contributors',
+72 silly install resolved        url: 'https://github.com/jquery/jquery/blob/3.1.0/AUTHORS.txt' },
+72 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/jquery/jquery.git' },
+72 silly install resolved     keywords: [ 'jquery', 'javascript', 'browser', 'library' ],
+72 silly install resolved     bugs: { url: 'https://github.com/jquery/jquery/issues' },
+72 silly install resolved     license: 'MIT',
+72 silly install resolved     dependencies: {},
+72 silly install resolved     devDependencies:
+72 silly install resolved      { 'babel-preset-es2015': '6.6.0',
+72 silly install resolved        commitplease: '2.3.1',
+72 silly install resolved        'core-js': '2.2.2',
+72 silly install resolved        'cross-spawn': '2.2.3',
+72 silly install resolved        'eslint-config-jquery': '0.1.6',
+72 silly install resolved        grunt: '1.0.1',
+72 silly install resolved        'grunt-babel': '6.0.0',
+72 silly install resolved        'grunt-cli': '1.2.0',
+72 silly install resolved        'grunt-compare-size': '0.4.2',
+72 silly install resolved        'grunt-contrib-uglify': '1.0.1',
+72 silly install resolved        'grunt-contrib-watch': '1.0.0',
+72 silly install resolved        'grunt-eslint': '18.1.0',
+72 silly install resolved        'grunt-git-authors': '3.2.0',
+72 silly install resolved        'grunt-jsonlint': '1.0.7',
+72 silly install resolved        'grunt-newer': '1.2.0',
+72 silly install resolved        'grunt-npmcopy': '0.1.0',
+72 silly install resolved        'gzip-js': '0.3.2',
+72 silly install resolved        husky: '0.11.4',
+72 silly install resolved        insight: '0.8.1',
+72 silly install resolved        jsdom: '5.6.1',
+72 silly install resolved        'load-grunt-tasks': '3.5.0',
+72 silly install resolved        'native-promise-only': '0.8.1',
+72 silly install resolved        'promises-aplus-tests': '2.1.1',
+72 silly install resolved        q: '1.4.1',
+72 silly install resolved        'qunit-assert-step': '1.0.3',
+72 silly install resolved        qunitjs: '1.23.1',
+72 silly install resolved        requirejs: '2.2.0',
+72 silly install resolved        sinon: '1.17.3',
+72 silly install resolved        sizzle: '2.3.0',
+72 silly install resolved        'strip-json-comments': '2.0.1',
+72 silly install resolved        testswarm: '1.1.0' },
+72 silly install resolved     scripts:
+72 silly install resolved      { build: 'npm install && grunt',
+72 silly install resolved        start: 'grunt watch',
+72 silly install resolved        test: 'grunt && grunt test',
+72 silly install resolved        precommit: 'grunt precommit_lint' },
+72 silly install resolved     commitplease: { components: [Object] },
+72 silly install resolved     gitHead: '6f02bc382c0529d3b4f68f6b2ad21876642dbbfe',
+72 silly install resolved     _id: 'jquery@3.1.0',
+72 silly install resolved     _shasum: '129f6f1ae94b18f09010b008d0d6011e40613d7f',
+72 silly install resolved     _from: 'jquery@latest',
+72 silly install resolved     _npmVersion: '2.15.8',
+72 silly install resolved     _nodeVersion: '4.4.7',
+72 silly install resolved     _npmUser: { name: 'timmywil', email: 'timmywillisn@gmail.com' },
+72 silly install resolved     dist:
+72 silly install resolved      { shasum: '129f6f1ae94b18f09010b008d0d6011e40613d7f',
+72 silly install resolved        tarball: 'https://registry.npmjs.org/jquery/-/jquery-3.1.0.tgz' },
+72 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object] ],
+72 silly install resolved     _npmOperationalInternal:
+72 silly install resolved      { host: 'packages-16-east.internal.npmjs.com',
+72 silly install resolved        tmp: 'tmp/jquery-3.1.0.tgz_1467927964329_0.882518710102886' },
+72 silly install resolved     directories: {},
+72 silly install resolved     _resolved: 'https://registry.npmjs.org/jquery/-/jquery-3.1.0.tgz',
+72 silly install resolved     readme: 'ERROR: No README data found!' },
+72 silly install resolved   { name: 'dev',
+72 silly install resolved     description: 'Reruns the given file whenever the current working dir subtree has modifications.',
+72 silly install resolved     version: '0.1.3',
+72 silly install resolved     repository: { type: 'git', url: 'git://github.com/iliakan/node-dev.git' },
+72 silly install resolved     author:
+72 silly install resolved      { name: 'Ilya Kantor',
+72 silly install resolved        email: 'iliakan@gmail.com',
+72 silly install resolved        url: 'http://javascript.info/' },
+72 silly install resolved     preferGlobal: true,
+72 silly install resolved     bin: { 'node-dev': './node-dev.sh' },
+72 silly install resolved     dependencies: { inotify: '>= 0.1.6' },
+72 silly install resolved     devDependencies: {},
+72 silly install resolved     _id: 'dev@0.1.3',
+72 silly install resolved     engines: { node: '*' },
+72 silly install resolved     _engineSupported: true,
+72 silly install resolved     _npmVersion: '1.0.6',
+72 silly install resolved     _nodeVersion: 'v0.5.0-pre',
+72 silly install resolved     _defaultsLoaded: true,
+72 silly install resolved     dist:
+72 silly install resolved      { shasum: '89fdc08705e0e7eaef92d012e26751e4d744322a',
+72 silly install resolved        tarball: 'https://registry.npmjs.org/dev/-/dev-0.1.3.tgz' },
+72 silly install resolved     scripts: {},
+72 silly install resolved     directories: {},
+72 silly install resolved     _shasum: '89fdc08705e0e7eaef92d012e26751e4d744322a',
+72 silly install resolved     _resolved: 'https://registry.npmjs.org/dev/-/dev-0.1.3.tgz',
+72 silly install resolved     _from: 'dev@latest',
+72 silly install resolved     bugs: { url: 'https://github.com/iliakan/node-dev/issues' },
+72 silly install resolved     readme: 'ERROR: No README data found!',
+72 silly install resolved     homepage: 'https://github.com/iliakan/node-dev#readme' } ]
+73 info install jquery@3.1.0 into C:\Users\Elizabeth\Desktop\Thinkful Program\Repository\Thinkful-mega-video
+74 info install dev@0.1.3 into C:\Users\Elizabeth\Desktop\Thinkful Program\Repository\Thinkful-mega-video
+75 info installOne jquery@3.1.0
+76 verbose installOne of jquery to C:\Users\Elizabeth\Desktop\Thinkful Program\Repository\Thinkful-mega-video not in flight; installing
+77 verbose correctMkdir C:\Users\Elizabeth\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+78 info installOne dev@0.1.3
+79 verbose installOne of dev to C:\Users\Elizabeth\Desktop\Thinkful Program\Repository\Thinkful-mega-video not in flight; installing
+80 verbose correctMkdir C:\Users\Elizabeth\AppData\Roaming\npm-cache\_locks correctMkdir already in flight; waiting
+81 verbose lock using C:\Users\Elizabeth\AppData\Roaming\npm-cache\_locks\jquery-478dedb299f2a65a.lock for C:\Users\Elizabeth\Desktop\Thinkful Program\Repository\Thinkful-mega-video\node_modules\jquery
+82 verbose lock using C:\Users\Elizabeth\AppData\Roaming\npm-cache\_locks\dev-bf57eafb6c87a3a9.lock for C:\Users\Elizabeth\Desktop\Thinkful Program\Repository\Thinkful-mega-video\node_modules\dev
+83 silly install write writing dev 0.1.3 to C:\Users\Elizabeth\Desktop\Thinkful Program\Repository\Thinkful-mega-video\node_modules\dev
+84 silly install write writing jquery 3.1.0 to C:\Users\Elizabeth\Desktop\Thinkful Program\Repository\Thinkful-mega-video\node_modules\jquery
+85 verbose unbuild node_modules\jquery
+86 info preuninstall jquery@3.1.0
+87 info uninstall jquery@3.1.0
+88 verbose unbuild rmStuff jquery@3.1.0 from C:\Users\Elizabeth\Desktop\Thinkful Program\Repository\Thinkful-mega-video\node_modules
+89 info postuninstall jquery@3.1.0
+90 silly gentlyRm C:\Users\Elizabeth\Desktop\Thinkful Program\Repository\Thinkful-mega-video\node_modules\jquery is being purged from base C:\Users\Elizabeth\Desktop\Thinkful Program\Repository\Thinkful-mega-video
+91 verbose gentlyRm don't care about contents; nuking C:\Users\Elizabeth\Desktop\Thinkful Program\Repository\Thinkful-mega-video\node_modules\jquery
+92 verbose unbuild node_modules\dev
+93 silly vacuum-fs purging C:\Users\Elizabeth\Desktop\Thinkful Program\Repository\Thinkful-mega-video\node_modules\jquery
+94 silly gentlyRm C:\Users\Elizabeth\Desktop\Thinkful Program\Repository\Thinkful-mega-video\node_modules\dev is being purged from base C:\Users\Elizabeth\Desktop\Thinkful Program\Repository\Thinkful-mega-video
+95 verbose gentlyRm don't care about contents; nuking C:\Users\Elizabeth\Desktop\Thinkful Program\Repository\Thinkful-mega-video\node_modules\dev
+96 verbose tar unpack C:\Users\Elizabeth\AppData\Roaming\npm-cache\dev\0.1.3\package.tgz
+97 verbose tar unpacking to C:\Users\Elizabeth\Desktop\Thinkful Program\Repository\Thinkful-mega-video\node_modules\dev
+98 silly gentlyRm C:\Users\Elizabeth\Desktop\Thinkful Program\Repository\Thinkful-mega-video\node_modules\dev is being purged
+99 verbose gentlyRm don't care about contents; nuking C:\Users\Elizabeth\Desktop\Thinkful Program\Repository\Thinkful-mega-video\node_modules\dev
+100 silly gunzTarPerm modes [ '777', '666' ]
+101 silly gunzTarPerm extractEntry index.js
+102 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+103 silly gunzTarPerm extractEntry .npmignore
+104 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+105 silly gunzTarPerm extractEntry readme.md
+106 silly gunzTarPerm modified mode [ 'readme.md', 484, 502 ]
+107 silly vacuum-fs quitting because other entries in C:\Users\Elizabeth\Desktop\Thinkful Program\Repository\Thinkful-mega-video\node_modules
+108 verbose tar unpack C:\Users\Elizabeth\AppData\Roaming\npm-cache\jquery\3.1.0\package.tgz
+109 verbose tar unpacking to C:\Users\Elizabeth\Desktop\Thinkful Program\Repository\Thinkful-mega-video\node_modules\jquery
+110 silly gentlyRm C:\Users\Elizabeth\Desktop\Thinkful Program\Repository\Thinkful-mega-video\node_modules\jquery is being purged
+111 verbose gentlyRm don't care about contents; nuking C:\Users\Elizabeth\Desktop\Thinkful Program\Repository\Thinkful-mega-video\node_modules\jquery
+112 silly gunzTarPerm modes [ '777', '666' ]
+113 silly gunzTarPerm extractEntry package.json
+114 silly gunzTarPerm modified mode [ 'package.json', 484, 502 ]
+115 silly gunzTarPerm extractEntry node-dev.sh
+116 silly gunzTarPerm modified mode [ 'node-dev.sh', 484, 502 ]
+117 silly gunzTarPerm extractEntry package.json
+118 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+119 silly gunzTarPerm extractEntry manager.js
+120 silly gunzTarPerm modified mode [ 'manager.js', 484, 502 ]
+121 silly gunzTarPerm extractEntry README.md
+122 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+123 silly gunzTarPerm extractEntry AUTHORS.txt
+124 silly gunzTarPerm modified mode [ 'AUTHORS.txt', 420, 438 ]
+125 silly gunzTarPerm extractEntry LICENSE.txt
+126 silly gunzTarPerm modified mode [ 'LICENSE.txt', 420, 438 ]
+127 silly gunzTarPerm extractEntry bower.json
+128 silly gunzTarPerm modified mode [ 'bower.json', 420, 438 ]
+129 silly gunzTarPerm extractEntry dist/core.js
+130 silly gunzTarPerm modified mode [ 'dist/core.js', 420, 438 ]
+131 silly gunzTarPerm extractEntry dist/jquery.js
+132 silly gunzTarPerm modified mode [ 'dist/jquery.js', 420, 438 ]
+133 silly gunzTarPerm extractEntry dist/jquery.min.js
+134 silly gunzTarPerm modified mode [ 'dist/jquery.min.js', 420, 438 ]
+135 silly gunzTarPerm extractEntry dist/jquery.slim.js
+136 silly gunzTarPerm modified mode [ 'dist/jquery.slim.js', 420, 438 ]
+137 silly gunzTarPerm extractEntry dist/jquery.slim.min.js
+138 silly gunzTarPerm modified mode [ 'dist/jquery.slim.min.js', 420, 438 ]
+139 verbose write writing to C:\Users\Elizabeth\Desktop\Thinkful Program\Repository\Thinkful-mega-video\node_modules\dev\package.json
+140 silly gunzTarPerm extractEntry dist/jquery.min.map
+141 silly gunzTarPerm modified mode [ 'dist/jquery.min.map', 420, 438 ]
+142 silly gunzTarPerm extractEntry dist/jquery.slim.min.map
+143 silly gunzTarPerm modified mode [ 'dist/jquery.slim.min.map', 420, 438 ]
+144 info preinstall dev@0.1.3
+145 verbose readDependencies loading dependencies from C:\Users\Elizabeth\Desktop\Thinkful Program\Repository\Thinkful-mega-video\node_modules\dev\package.json
+146 silly gunzTarPerm extractEntry external/sizzle/LICENSE.txt
+147 silly gunzTarPerm modified mode [ 'external/sizzle/LICENSE.txt', 420, 438 ]
+148 silly gunzTarPerm extractEntry external/sizzle/dist/sizzle.js
+149 silly gunzTarPerm modified mode [ 'external/sizzle/dist/sizzle.js', 420, 438 ]
+150 silly prepareForInstallMany adding inotify@>= 0.1.6 from dev dependencies
+151 verbose readDependencies loading dependencies from C:\Users\Elizabeth\Desktop\Thinkful Program\Repository\Thinkful-mega-video\node_modules\dev\package.json
+152 silly cache add args [ 'inotify@>= 0.1.6', null ]
+153 verbose cache add spec inotify@>= 0.1.6
+154 silly cache add parsed spec Result {
+154 silly cache add   raw: 'inotify@>= 0.1.6',
+154 silly cache add   scope: null,
+154 silly cache add   name: 'inotify',
+154 silly cache add   rawSpec: '>= 0.1.6',
+154 silly cache add   spec: '>=0.1.6',
+154 silly cache add   type: 'range' }
+155 silly addNamed inotify@>=0.1.6
+156 verbose addNamed ">=0.1.6" is a valid semver range for inotify
+157 silly addNameRange { name: 'inotify', range: '>=0.1.6', hasData: false }
+158 silly mapToRegistry name inotify
+159 silly mapToRegistry using default registry
+160 silly mapToRegistry registry https://registry.npmjs.org/
+161 silly mapToRegistry data Result {
+161 silly mapToRegistry   raw: 'inotify',
+161 silly mapToRegistry   scope: null,
+161 silly mapToRegistry   name: 'inotify',
+161 silly mapToRegistry   rawSpec: '',
+161 silly mapToRegistry   spec: 'latest',
+161 silly mapToRegistry   type: 'tag' }
+162 silly mapToRegistry uri https://registry.npmjs.org/inotify
+163 verbose addNameRange registry:https://registry.npmjs.org/inotify not in flight; fetching
+164 silly gunzTarPerm extractEntry external/sizzle/dist/sizzle.min.js
+165 silly gunzTarPerm modified mode [ 'external/sizzle/dist/sizzle.min.js', 420, 438 ]
+166 silly gunzTarPerm extractEntry external/sizzle/dist/sizzle.min.map
+167 silly gunzTarPerm modified mode [ 'external/sizzle/dist/sizzle.min.map', 420, 438 ]
+168 silly gunzTarPerm extractEntry src/wrap.js
+169 silly gunzTarPerm modified mode [ 'src/wrap.js', 420, 438 ]
+170 silly gunzTarPerm extractEntry src/core.js
+171 silly gunzTarPerm modified mode [ 'src/core.js', 420, 438 ]
+172 silly gunzTarPerm extractEntry src/selector.js
+173 silly gunzTarPerm modified mode [ 'src/selector.js', 420, 438 ]
+174 silly gunzTarPerm extractEntry src/css.js
+175 silly gunzTarPerm modified mode [ 'src/css.js', 420, 438 ]
+176 silly gunzTarPerm extractEntry src/selector-sizzle.js
+177 silly gunzTarPerm modified mode [ 'src/selector-sizzle.js', 420, 438 ]
+178 silly gunzTarPerm extractEntry src/serialize.js
+179 silly gunzTarPerm modified mode [ 'src/serialize.js', 420, 438 ]
+180 silly gunzTarPerm extractEntry src/selector-native.js
+181 silly gunzTarPerm modified mode [ 'src/selector-native.js', 420, 438 ]
+182 silly gunzTarPerm extractEntry src/deferred.js
+183 silly gunzTarPerm modified mode [ 'src/deferred.js', 420, 438 ]
+184 silly gunzTarPerm extractEntry src/deprecated.js
+185 silly gunzTarPerm modified mode [ 'src/deprecated.js', 420, 438 ]
+186 silly gunzTarPerm extractEntry src/dimensions.js
+187 silly gunzTarPerm modified mode [ 'src/dimensions.js', 420, 438 ]
+188 silly gunzTarPerm extractEntry src/queue.js
+189 silly gunzTarPerm modified mode [ 'src/queue.js', 420, 438 ]
+190 silly gunzTarPerm extractEntry src/callbacks.js
+191 silly gunzTarPerm modified mode [ 'src/callbacks.js', 420, 438 ]
+192 silly gunzTarPerm extractEntry src/offset.js
+193 silly gunzTarPerm modified mode [ 'src/offset.js', 420, 438 ]
+194 verbose request uri https://registry.npmjs.org/inotify
+195 verbose request no auth needed
+196 info attempt registry request try #1 at 3:10:53 PM
+197 verbose etag "DJDJZLGYF0JXWEDSAJB20ON5A"
+198 http request GET https://registry.npmjs.org/inotify
+199 silly gunzTarPerm extractEntry src/attributes.js
+200 silly gunzTarPerm modified mode [ 'src/attributes.js', 420, 438 ]
+201 silly gunzTarPerm extractEntry src/manipulation.js
+202 silly gunzTarPerm modified mode [ 'src/manipulation.js', 420, 438 ]
+203 silly gunzTarPerm extractEntry src/traversing.js
+204 silly gunzTarPerm modified mode [ 'src/traversing.js', 420, 438 ]
+205 silly gunzTarPerm extractEntry src/event.js
+206 silly gunzTarPerm modified mode [ 'src/event.js', 420, 438 ]
+207 silly gunzTarPerm extractEntry src/ajax.js
+208 silly gunzTarPerm modified mode [ 'src/ajax.js', 420, 438 ]
+209 silly gunzTarPerm extractEntry src/jquery.js
+210 silly gunzTarPerm modified mode [ 'src/jquery.js', 420, 438 ]
+211 silly gunzTarPerm extractEntry src/data.js
+212 silly gunzTarPerm modified mode [ 'src/data.js', 420, 438 ]
+213 silly gunzTarPerm extractEntry src/effects.js
+214 silly gunzTarPerm modified mode [ 'src/effects.js', 420, 438 ]
+215 silly gunzTarPerm extractEntry src/data/Data.js
+216 silly gunzTarPerm modified mode [ 'src/data/Data.js', 420, 438 ]
+217 silly gunzTarPerm extractEntry src/data/var/acceptData.js
+218 silly gunzTarPerm modified mode [ 'src/data/var/acceptData.js', 420, 438 ]
+219 silly gunzTarPerm extractEntry src/data/var/dataPriv.js
+220 silly gunzTarPerm modified mode [ 'src/data/var/dataPriv.js', 420, 438 ]
+221 silly gunzTarPerm extractEntry src/data/var/dataUser.js
+222 silly gunzTarPerm modified mode [ 'src/data/var/dataUser.js', 420, 438 ]
+223 silly gunzTarPerm extractEntry src/exports/amd.js
+224 silly gunzTarPerm modified mode [ 'src/exports/amd.js', 420, 438 ]
+225 silly gunzTarPerm extractEntry src/exports/global.js
+226 silly gunzTarPerm modified mode [ 'src/exports/global.js', 420, 438 ]
+227 silly gunzTarPerm extractEntry src/event/ajax.js
+228 silly gunzTarPerm modified mode [ 'src/event/ajax.js', 420, 438 ]
+229 silly gunzTarPerm extractEntry src/event/alias.js
+230 silly gunzTarPerm modified mode [ 'src/event/alias.js', 420, 438 ]
+231 silly gunzTarPerm extractEntry src/event/focusin.js
+232 silly gunzTarPerm modified mode [ 'src/event/focusin.js', 420, 438 ]
+233 silly gunzTarPerm extractEntry src/event/support.js
+234 silly gunzTarPerm modified mode [ 'src/event/support.js', 420, 438 ]
+235 silly gunzTarPerm extractEntry src/event/trigger.js
+236 silly gunzTarPerm modified mode [ 'src/event/trigger.js', 420, 438 ]
+237 silly gunzTarPerm extractEntry src/ajax/jsonp.js
+238 silly gunzTarPerm modified mode [ 'src/ajax/jsonp.js', 420, 438 ]
+239 silly gunzTarPerm extractEntry src/ajax/load.js
+240 silly gunzTarPerm modified mode [ 'src/ajax/load.js', 420, 438 ]
+241 silly gunzTarPerm extractEntry src/ajax/parseXML.js
+242 silly gunzTarPerm modified mode [ 'src/ajax/parseXML.js', 420, 438 ]
+243 silly gunzTarPerm extractEntry src/ajax/script.js
+244 silly gunzTarPerm modified mode [ 'src/ajax/script.js', 420, 438 ]
+245 silly gunzTarPerm extractEntry src/ajax/xhr.js
+246 silly gunzTarPerm modified mode [ 'src/ajax/xhr.js', 420, 438 ]
+247 silly gunzTarPerm extractEntry src/ajax/var/location.js
+248 silly gunzTarPerm modified mode [ 'src/ajax/var/location.js', 420, 438 ]
+249 silly gunzTarPerm extractEntry src/ajax/var/nonce.js
+250 silly gunzTarPerm modified mode [ 'src/ajax/var/nonce.js', 420, 438 ]
+251 silly gunzTarPerm extractEntry src/ajax/var/rquery.js
+252 silly gunzTarPerm modified mode [ 'src/ajax/var/rquery.js', 420, 438 ]
+253 silly gunzTarPerm extractEntry src/queue/delay.js
+254 silly gunzTarPerm modified mode [ 'src/queue/delay.js', 420, 438 ]
+255 silly gunzTarPerm extractEntry src/effects/Tween.js
+256 silly gunzTarPerm modified mode [ 'src/effects/Tween.js', 420, 438 ]
+257 silly gunzTarPerm extractEntry src/effects/animatedSelector.js
+258 silly gunzTarPerm modified mode [ 'src/effects/animatedSelector.js', 420, 438 ]
+259 silly gunzTarPerm extractEntry src/deferred/exceptionHook.js
+260 silly gunzTarPerm modified mode [ 'src/deferred/exceptionHook.js', 420, 438 ]
+261 silly gunzTarPerm extractEntry src/manipulation/_evalUrl.js
+262 silly gunzTarPerm modified mode [ 'src/manipulation/_evalUrl.js', 420, 438 ]
+263 silly gunzTarPerm extractEntry src/manipulation/buildFragment.js
+264 silly gunzTarPerm modified mode [ 'src/manipulation/buildFragment.js', 420, 438 ]
+265 silly gunzTarPerm extractEntry src/manipulation/getAll.js
+266 silly gunzTarPerm modified mode [ 'src/manipulation/getAll.js', 420, 438 ]
+267 silly gunzTarPerm extractEntry src/manipulation/setGlobalEval.js
+268 silly gunzTarPerm modified mode [ 'src/manipulation/setGlobalEval.js', 420, 438 ]
+269 silly gunzTarPerm extractEntry src/manipulation/support.js
+270 silly gunzTarPerm modified mode [ 'src/manipulation/support.js', 420, 438 ]
+271 silly gunzTarPerm extractEntry src/manipulation/wrapMap.js
+272 silly gunzTarPerm modified mode [ 'src/manipulation/wrapMap.js', 420, 438 ]
+273 silly gunzTarPerm extractEntry src/manipulation/var/rcheckableType.js
+274 silly gunzTarPerm modified mode [ 'src/manipulation/var/rcheckableType.js', 420, 438 ]
+275 silly gunzTarPerm extractEntry src/manipulation/var/rscriptType.js
+276 silly gunzTarPerm modified mode [ 'src/manipulation/var/rscriptType.js', 420, 438 ]
+277 silly gunzTarPerm extractEntry src/manipulation/var/rtagName.js
+278 silly gunzTarPerm modified mode [ 'src/manipulation/var/rtagName.js', 420, 438 ]
+279 silly gunzTarPerm extractEntry src/css/addGetHookIf.js
+280 silly gunzTarPerm modified mode [ 'src/css/addGetHookIf.js', 420, 438 ]
+281 silly gunzTarPerm extractEntry src/css/adjustCSS.js
+282 silly gunzTarPerm modified mode [ 'src/css/adjustCSS.js', 420, 438 ]
+283 silly gunzTarPerm extractEntry src/css/curCSS.js
+284 silly gunzTarPerm modified mode [ 'src/css/curCSS.js', 420, 438 ]
+285 silly gunzTarPerm extractEntry src/css/hiddenVisibleSelectors.js
+286 silly gunzTarPerm modified mode [ 'src/css/hiddenVisibleSelectors.js', 420, 438 ]
+287 silly gunzTarPerm extractEntry src/css/showHide.js
+288 silly gunzTarPerm modified mode [ 'src/css/showHide.js', 420, 438 ]
+289 silly gunzTarPerm extractEntry src/css/support.js
+290 silly gunzTarPerm modified mode [ 'src/css/support.js', 420, 438 ]
+291 silly gunzTarPerm extractEntry src/css/var/cssExpand.js
+292 silly gunzTarPerm modified mode [ 'src/css/var/cssExpand.js', 420, 438 ]
+293 silly gunzTarPerm extractEntry src/css/var/getStyles.js
+294 silly gunzTarPerm modified mode [ 'src/css/var/getStyles.js', 420, 438 ]
+295 silly gunzTarPerm extractEntry src/css/var/isHiddenWithinTree.js
+296 silly gunzTarPerm modified mode [ 'src/css/var/isHiddenWithinTree.js', 420, 438 ]
+297 http 304 https://registry.npmjs.org/inotify
+298 verbose headers { date: 'Fri, 02 Sep 2016 22:10:54 GMT',
+298 verbose headers   via: '1.1 varnish',
+298 verbose headers   'cache-control': 'max-age=300',
+298 verbose headers   etag: '"DJDJZLGYF0JXWEDSAJB20ON5A"',
+298 verbose headers   age: '0',
+298 verbose headers   connection: 'keep-alive',
+298 verbose headers   'x-served-by': 'cache-sjc3148-SJC',
+298 verbose headers   'x-cache': 'MISS',
+298 verbose headers   'x-cache-hits': '0',
+298 verbose headers   'x-timer': 'S1472854254.147010,VS0,VE353',
+298 verbose headers   vary: 'Accept-Encoding' }
+299 silly get cb [ 304,
+299 silly get   { date: 'Fri, 02 Sep 2016 22:10:54 GMT',
+299 silly get     via: '1.1 varnish',
+299 silly get     'cache-control': 'max-age=300',
+299 silly get     etag: '"DJDJZLGYF0JXWEDSAJB20ON5A"',
+299 silly get     age: '0',
+299 silly get     connection: 'keep-alive',
+299 silly get     'x-served-by': 'cache-sjc3148-SJC',
+299 silly get     'x-cache': 'MISS',
+299 silly get     'x-cache-hits': '0',
+299 silly get     'x-timer': 'S1472854254.147010,VS0,VE353',
+299 silly get     vary: 'Accept-Encoding' } ]
+300 verbose etag https://registry.npmjs.org/inotify from cache
+301 verbose get saving inotify to C:\Users\Elizabeth\AppData\Roaming\npm-cache\registry.npmjs.org\inotify\.cache.json
+302 verbose correctMkdir C:\Users\Elizabeth\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+303 silly gunzTarPerm extractEntry src/css/var/rmargin.js
+304 silly gunzTarPerm modified mode [ 'src/css/var/rmargin.js', 420, 438 ]
+305 silly gunzTarPerm extractEntry src/css/var/rnumnonpx.js
+306 silly gunzTarPerm modified mode [ 'src/css/var/rnumnonpx.js', 420, 438 ]
+307 silly gunzTarPerm extractEntry src/css/var/swap.js
+308 silly gunzTarPerm modified mode [ 'src/css/var/swap.js', 420, 438 ]
+309 silly gunzTarPerm extractEntry src/core/DOMEval.js
+310 silly gunzTarPerm modified mode [ 'src/core/DOMEval.js', 420, 438 ]
+311 silly gunzTarPerm extractEntry src/core/access.js
+312 silly gunzTarPerm modified mode [ 'src/core/access.js', 420, 438 ]
+313 silly gunzTarPerm extractEntry src/core/init.js
+314 silly gunzTarPerm modified mode [ 'src/core/init.js', 420, 438 ]
+315 silly gunzTarPerm extractEntry src/core/parseHTML.js
+316 silly gunzTarPerm modified mode [ 'src/core/parseHTML.js', 420, 438 ]
+317 silly gunzTarPerm extractEntry src/core/ready-no-deferred.js
+318 silly gunzTarPerm modified mode [ 'src/core/ready-no-deferred.js', 420, 438 ]
+319 silly gunzTarPerm extractEntry src/core/ready.js
+320 silly gunzTarPerm modified mode [ 'src/core/ready.js', 420, 438 ]
+321 silly gunzTarPerm extractEntry src/core/readyException.js
+322 silly gunzTarPerm modified mode [ 'src/core/readyException.js', 420, 438 ]
+323 silly addNameRange number 2 { name: 'inotify', range: '>=0.1.6', hasData: true }
+324 silly addNameRange versions [ 'inotify',
+324 silly addNameRange   [ '0.1.2',
+324 silly addNameRange     '0.1.3',
+324 silly addNameRange     '0.1.4',
+324 silly addNameRange     '0.1.5',
+324 silly addNameRange     '0.1.6',
+324 silly addNameRange     '0.1.7',
+324 silly addNameRange     '0.1.8',
+324 silly addNameRange     '0.2.0',
+324 silly addNameRange     '0.2.1',
+324 silly addNameRange     '0.2.2',
+324 silly addNameRange     '1.0.0',
+324 silly addNameRange     '1.1.0',
+324 silly addNameRange     '1.2.0',
+324 silly addNameRange     '1.2.1',
+324 silly addNameRange     '1.3.0',
+324 silly addNameRange     '1.4.0',
+324 silly addNameRange     '1.4.1' ] ]
+325 silly addNamed inotify@1.4.1
+326 verbose addNamed "1.4.1" is a plain semver version for inotify
+327 silly gunzTarPerm extractEntry src/core/support.js
+328 silly gunzTarPerm modified mode [ 'src/core/support.js', 420, 438 ]
+329 silly gunzTarPerm extractEntry src/core/var/rsingleTag.js
+330 silly gunzTarPerm modified mode [ 'src/core/var/rsingleTag.js', 420, 438 ]
+331 silly gunzTarPerm extractEntry src/traversing/findFilter.js
+332 silly gunzTarPerm modified mode [ 'src/traversing/findFilter.js', 420, 438 ]
+333 silly gunzTarPerm extractEntry src/traversing/var/dir.js
+334 silly gunzTarPerm modified mode [ 'src/traversing/var/dir.js', 420, 438 ]
+335 silly gunzTarPerm extractEntry src/traversing/var/rneedsContext.js
+336 silly gunzTarPerm modified mode [ 'src/traversing/var/rneedsContext.js', 420, 438 ]
+337 silly cache afterAdd inotify@1.4.1
+338 verbose afterAdd C:\Users\Elizabeth\AppData\Roaming\npm-cache\inotify\1.4.1\package\package.json not in flight; writing
+339 verbose correctMkdir C:\Users\Elizabeth\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+340 silly gunzTarPerm extractEntry src/traversing/var/siblings.js
+341 silly gunzTarPerm modified mode [ 'src/traversing/var/siblings.js', 420, 438 ]
+342 silly gunzTarPerm extractEntry src/attributes/attr.js
+343 silly gunzTarPerm modified mode [ 'src/attributes/attr.js', 420, 438 ]
+344 verbose afterAdd C:\Users\Elizabeth\AppData\Roaming\npm-cache\inotify\1.4.1\package\package.json written
+345 silly install resolved [ { name: 'inotify',
+345 silly install resolved     version: '1.4.1',
+345 silly install resolved     author: { name: 'Camilo Aguilar', email: 'camilo.aguilar@gmail.com' },
+345 silly install resolved     email: 'camilo.aguilar@gmail.com',
+345 silly install resolved     keywords:
+345 silly install resolved      [ 'inotify',
+345 silly install resolved        'watch',
+345 silly install resolved        'monitor',
+345 silly install resolved        'watch files',
+345 silly install resolved        'watch directories' ],
+345 silly install resolved     license: 'MIT',
+345 silly install resolved     description: 'inotify bindings for v8 javascript engine',
+345 silly install resolved     repository:
+345 silly install resolved      { type: 'git',
+345 silly install resolved        url: 'git+ssh://git@github.com/c4milo/node-inotify.git' },
+345 silly install resolved     os: [ 'linux' ],
+345 silly install resolved     engines: { node: '>=0.8' },
+345 silly install resolved     main: 'inotify',
+345 silly install resolved     dependencies: { bindings: '^1.2.1', nan: '^2.3.3' },
+345 silly install resolved     scripts:
+345 silly install resolved      { test: 'node-gyp configure build',
+345 silly install resolved        install: 'node-gyp rebuild' },
+345 silly install resolved     gypfile: true,
+345 silly install resolved     contributors:
+345 silly install resolved      [ [Object],
+345 silly install resolved        [Object],
+345 silly install resolved        [Object],
+345 silly install resolved        [Object],
+345 silly install resolved        [Object],
+345 silly install resolved        [Object],
+345 silly install resolved        [Object],
+345 silly install resolved        [Object],
+345 silly install resolved        [Object],
+345 silly install resolved        [Object] ],
+345 silly install resolved     gitHead: 'c1416dfada3ca4f3fb40e65eededc52461822ec5',
+345 silly install resolved     bugs: { url: 'https://github.com/c4milo/node-inotify/issues' },
+345 silly install resolved     homepage: 'https://github.com/c4milo/node-inotify#readme',
+345 silly install resolved     _id: 'inotify@1.4.1',
+345 silly install resolved     _shasum: '8abdeb7ee9cbc291542a252df00d848b2a8f9287',
+345 silly install resolved     _from: 'inotify@>=0.1.6',
+345 silly install resolved     _npmVersion: '3.8.6',
+345 silly install resolved     _nodeVersion: '5.11.0',
+345 silly install resolved     _npmUser: { name: 'c4milo', email: 'camilo.aguilar@gmail.com' },
+345 silly install resolved     maintainers: [ [Object], [Object] ],
+345 silly install resolved     dist:
+345 silly install resolved      { shasum: '8abdeb7ee9cbc291542a252df00d848b2a8f9287',
+345 silly install resolved        tarball: 'https://registry.npmjs.org/inotify/-/inotify-1.4.1.tgz' },
+345 silly install resolved     _npmOperationalInternal:
+345 silly install resolved      { host: 'packages-16-east.internal.npmjs.com',
+345 silly install resolved        tmp: 'tmp/inotify-1.4.1.tgz_1462444544613_0.7660284182056785' },
+345 silly install resolved     directories: {},
+345 silly install resolved     _resolved: 'https://registry.npmjs.org/inotify/-/inotify-1.4.1.tgz',
+345 silly install resolved     readme: 'ERROR: No README data found!' } ]
+346 info install inotify@1.4.1 into C:\Users\Elizabeth\Desktop\Thinkful Program\Repository\Thinkful-mega-video\node_modules\dev
+347 info installOne inotify@1.4.1
+348 verbose installOne of inotify to C:\Users\Elizabeth\Desktop\Thinkful Program\Repository\Thinkful-mega-video\node_modules\dev not in flight; installing
+349 verbose correctMkdir C:\Users\Elizabeth\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+350 silly gunzTarPerm extractEntry src/attributes/classes.js
+351 silly gunzTarPerm modified mode [ 'src/attributes/classes.js', 420, 438 ]
+352 silly gunzTarPerm extractEntry src/attributes/prop.js
+353 silly gunzTarPerm modified mode [ 'src/attributes/prop.js', 420, 438 ]
+354 verbose lock using C:\Users\Elizabeth\AppData\Roaming\npm-cache\_locks\inotify-c8b8ab3d25f42ebc.lock for C:\Users\Elizabeth\Desktop\Thinkful Program\Repository\Thinkful-mega-video\node_modules\dev\node_modules\inotify
+355 verbose unlock done using C:\Users\Elizabeth\AppData\Roaming\npm-cache\_locks\inotify-c8b8ab3d25f42ebc.lock for C:\Users\Elizabeth\Desktop\Thinkful Program\Repository\Thinkful-mega-video\node_modules\dev\node_modules\inotify
+356 verbose about to build C:\Users\Elizabeth\Desktop\Thinkful Program\Repository\Thinkful-mega-video\node_modules\dev
+357 verbose unlock done using C:\Users\Elizabeth\AppData\Roaming\npm-cache\_locks\dev-bf57eafb6c87a3a9.lock for C:\Users\Elizabeth\Desktop\Thinkful Program\Repository\Thinkful-mega-video\node_modules\dev
+358 silly gunzTarPerm extractEntry src/attributes/support.js
+359 silly gunzTarPerm modified mode [ 'src/attributes/support.js', 420, 438 ]
+360 silly gunzTarPerm extractEntry src/attributes/val.js
+361 silly gunzTarPerm modified mode [ 'src/attributes/val.js', 420, 438 ]
+362 silly gunzTarPerm extractEntry src/var/ObjectFunctionString.js
+363 silly gunzTarPerm modified mode [ 'src/var/ObjectFunctionString.js', 420, 438 ]
+364 silly gunzTarPerm extractEntry src/var/documentElement.js
+365 silly gunzTarPerm modified mode [ 'src/var/documentElement.js', 420, 438 ]
+366 silly gunzTarPerm extractEntry src/var/fnToString.js
+367 silly gunzTarPerm modified mode [ 'src/var/fnToString.js', 420, 438 ]
+368 silly gunzTarPerm extractEntry src/var/getProto.js
+369 silly gunzTarPerm modified mode [ 'src/var/getProto.js', 420, 438 ]
+370 silly gunzTarPerm extractEntry src/var/document.js
+371 silly gunzTarPerm modified mode [ 'src/var/document.js', 420, 438 ]
+372 silly gunzTarPerm extractEntry src/var/indexOf.js
+373 silly gunzTarPerm modified mode [ 'src/var/indexOf.js', 420, 438 ]
+374 silly gunzTarPerm extractEntry src/var/pnum.js
+375 silly gunzTarPerm modified mode [ 'src/var/pnum.js', 420, 438 ]
+376 silly gunzTarPerm extractEntry src/var/push.js
+377 silly gunzTarPerm modified mode [ 'src/var/push.js', 420, 438 ]
+378 silly gunzTarPerm extractEntry src/var/rcssNum.js
+379 silly gunzTarPerm modified mode [ 'src/var/rcssNum.js', 420, 438 ]
+380 silly gunzTarPerm extractEntry src/var/rnotwhite.js
+381 silly gunzTarPerm modified mode [ 'src/var/rnotwhite.js', 420, 438 ]
+382 silly gunzTarPerm extractEntry src/var/concat.js
+383 silly gunzTarPerm modified mode [ 'src/var/concat.js', 420, 438 ]
+384 silly gunzTarPerm extractEntry src/var/slice.js
+385 silly gunzTarPerm modified mode [ 'src/var/slice.js', 420, 438 ]
+386 silly gunzTarPerm extractEntry src/var/class2type.js
+387 silly gunzTarPerm modified mode [ 'src/var/class2type.js', 420, 438 ]
+388 silly gunzTarPerm extractEntry src/var/support.js
+389 silly gunzTarPerm modified mode [ 'src/var/support.js', 420, 438 ]
+390 silly gunzTarPerm extractEntry src/var/arr.js
+391 silly gunzTarPerm modified mode [ 'src/var/arr.js', 420, 438 ]
+392 silly gunzTarPerm extractEntry src/var/toString.js
+393 silly gunzTarPerm modified mode [ 'src/var/toString.js', 420, 438 ]
+394 silly gunzTarPerm extractEntry src/var/hasOwn.js
+395 silly gunzTarPerm modified mode [ 'src/var/hasOwn.js', 420, 438 ]
+396 silly gunzTarPerm extractEntry src/.eslintrc
+397 silly gunzTarPerm modified mode [ 'src/.eslintrc', 420, 438 ]
+398 verbose write writing to C:\Users\Elizabeth\Desktop\Thinkful Program\Repository\Thinkful-mega-video\node_modules\jquery\package.json
+399 info preinstall jquery@3.1.0
+400 verbose readDependencies loading dependencies from C:\Users\Elizabeth\Desktop\Thinkful Program\Repository\Thinkful-mega-video\node_modules\jquery\package.json
+401 verbose readDependencies loading dependencies from C:\Users\Elizabeth\Desktop\Thinkful Program\Repository\Thinkful-mega-video\node_modules\jquery\package.json
+402 silly install resolved []
+403 verbose about to build C:\Users\Elizabeth\Desktop\Thinkful Program\Repository\Thinkful-mega-video\node_modules\jquery
+404 info build C:\Users\Elizabeth\Desktop\Thinkful Program\Repository\Thinkful-mega-video\node_modules\jquery
+405 info linkStuff jquery@3.1.0
+406 silly linkStuff jquery@3.1.0 has C:\Users\Elizabeth\Desktop\Thinkful Program\Repository\Thinkful-mega-video\node_modules as its parent node_modules
+407 verbose linkBins jquery@3.1.0
+408 verbose linkMans jquery@3.1.0
+409 verbose rebuildBundles jquery@3.1.0
+410 info install jquery@3.1.0
+411 info postinstall jquery@3.1.0
+412 verbose unlock done using C:\Users\Elizabeth\AppData\Roaming\npm-cache\_locks\jquery-478dedb299f2a65a.lock for C:\Users\Elizabeth\Desktop\Thinkful Program\Repository\Thinkful-mega-video\node_modules\jquery
+413 verbose stack Error: Unsupported
+413 verbose stack     at checkPlatform (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-install-checks\index.js:47:14)
+413 verbose stack     at Array.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\bind-actor.js:15:8)
+413 verbose stack     at LOOP (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:15:14)
+413 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:18:7
+413 verbose stack     at checkEngine (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-install-checks\index.js:26:10)
+413 verbose stack     at Array.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\bind-actor.js:15:8)
+413 verbose stack     at LOOP (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:15:14)
+413 verbose stack     at chain (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:20:5)
+413 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\install.js:1038:5
+413 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\utils\locker.js:39:7
+414 verbose pkgid inotify@1.4.1
+415 verbose cwd C:\Users\Elizabeth\Desktop\Thinkful Program\Repository\Thinkful-mega-video
+416 error Windows_NT 10.0.10586
+417 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "jquery" "--save" "dev"
+418 error node v4.4.5
+419 error npm  v2.15.5
+420 error code EBADPLATFORM
+421 error notsup Unsupported
+421 error notsup Not compatible with your operating system or architecture: inotify@1.4.1
+421 error notsup Valid OS:    linux
+421 error notsup Valid Arch:  any
+421 error notsup Actual OS:   win32
+421 error notsup Actual Arch: x64
+422 verbose exit [ 1, true ]
+423 verbose unbuild node_modules\dev
+424 info preuninstall dev@0.1.3
+425 info uninstall dev@0.1.3
+426 verbose unbuild rmStuff dev@0.1.3 from C:\Users\Elizabeth\Desktop\Thinkful Program\Repository\Thinkful-mega-video\node_modules
+427 silly gentlyRm C:\Users\Elizabeth\Desktop\Thinkful Program\Repository\Thinkful-mega-video\node_modules\.bin\node-dev.cmd is being gently removed
+428 silly gentlyRm verifying C:\Users\Elizabeth\Desktop\Thinkful Program\Repository\Thinkful-mega-video is an npm working directory
+429 silly gentlyRm containing path C:\Users\Elizabeth\Desktop\Thinkful Program\Repository\Thinkful-mega-video is under npm's control, in C:\Users\Elizabeth\Desktop\Thinkful Program\Repository\Thinkful-mega-video
+430 silly gentlyRm deletion target C:\Users\Elizabeth\Desktop\Thinkful Program\Repository\Thinkful-mega-video\node_modules\.bin\node-dev.cmd is under C:\Users\Elizabeth\Desktop\Thinkful Program\Repository\Thinkful-mega-video
+431 verbose gentlyRm vacuuming from C:\Users\Elizabeth\Desktop\Thinkful Program\Repository\Thinkful-mega-video\node_modules\.bin\node-dev.cmd up to C:\Users\Elizabeth\Desktop\Thinkful Program\Repository\Thinkful-mega-video
+432 silly gentlyRm C:\Users\Elizabeth\Desktop\Thinkful Program\Repository\Thinkful-mega-video\node_modules\.bin\node-dev is being gently removed
+433 silly gentlyRm verifying C:\Users\Elizabeth\Desktop\Thinkful Program\Repository\Thinkful-mega-video is an npm working directory
+434 silly gentlyRm containing path C:\Users\Elizabeth\Desktop\Thinkful Program\Repository\Thinkful-mega-video is under npm's control, in C:\Users\Elizabeth\Desktop\Thinkful Program\Repository\Thinkful-mega-video
+435 silly gentlyRm deletion target C:\Users\Elizabeth\Desktop\Thinkful Program\Repository\Thinkful-mega-video\node_modules\.bin\node-dev is under C:\Users\Elizabeth\Desktop\Thinkful Program\Repository\Thinkful-mega-video
+436 verbose gentlyRm vacuuming from C:\Users\Elizabeth\Desktop\Thinkful Program\Repository\Thinkful-mega-video\node_modules\.bin\node-dev up to C:\Users\Elizabeth\Desktop\Thinkful Program\Repository\Thinkful-mega-video
+437 info postuninstall dev@0.1.3
+438 silly gentlyRm C:\Users\Elizabeth\Desktop\Thinkful Program\Repository\Thinkful-mega-video\node_modules\dev is being purged from base C:\Users\Elizabeth\Desktop\Thinkful Program\Repository\Thinkful-mega-video
+439 verbose gentlyRm don't care about contents; nuking C:\Users\Elizabeth\Desktop\Thinkful Program\Repository\Thinkful-mega-video\node_modules\dev
+440 silly vacuum-fs purging C:\Users\Elizabeth\Desktop\Thinkful Program\Repository\Thinkful-mega-video\node_modules\dev
+441 silly vacuum-fs quitting because other entries in C:\Users\Elizabeth\Desktop\Thinkful Program\Repository\Thinkful-mega-video\node_modules
